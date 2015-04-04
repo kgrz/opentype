@@ -1,0 +1,75 @@
+body {
+  font-family: 'Calluna Sans';
+  font-size: 1rem;
+}
+
+header {
+  font-size: 4rem;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.smallcaps {
+  font-feature-settings: "c2sc", "smcp";
+}
+
+.block {
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
+.block div {
+  margin-top: 50px;
+}
+
+.ligatures {
+  font-feature-settings: "liga";
+  font-size: 3rem;
+}
+
+.noligatures {
+  font-feature-settings: "liga" off;
+  font-size: 3rem;
+}
+
+.discligatures {
+  font-feature-settings: "dlig" 1;
+  font-size: 3rem;
+}
+
+.nodiscligatures {
+  font-feature-settings: "dlig" 0;
+  font-size: 3rem;
+}
+
+.zero {
+  font-feature-settings: "zero";
+  font-size: 3rem;
+}
+
+.tabular {
+  font-size: 3rem;
+}
+
+.notabular {
+  font-feature-settings: "lnum";
+  font-size: 3rem;
+}
+
+.stylized {
+  font-feature-settings: "ss01";
+  font-size: 3rem;
+}
+
+.nostylized {
+  font-size: 3rem;
+}
