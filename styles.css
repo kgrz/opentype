@@ -73,3 +73,7 @@ header {
 .nostylized {
   font-size: 3rem;
 }
+
+.nocenter {
+  text-align: left;
+}
